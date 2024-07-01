@@ -18,7 +18,8 @@ const Layout = (props) => {
       </div>
      
       <main style={{minHeight: "80vh",fontWeight:"300",color:"black",backgroundColor:"#EFEFEF",padding:"70px"}}>
-        <center><p className='h6 text-center'>{'WHISPERING COLORS, SHAPING DREAMS – STUDIO REVERIE, YOUR ARTISTIC ODYSSEY BEGINS HERE! BEST SELLER'}</p></center>
+        <center>
+        <p className='h6 text-center'>{'WHISPERING COLORS, SHAPING DREAMS – STUDIO REVERIE, YOUR ARTISTIC ODYSSEY BEGINS HERE! BEST SELLER'}</p></center>
         <br></br>
       <center> {props.children}</center>
       <Gallery />

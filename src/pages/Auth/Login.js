@@ -48,13 +48,12 @@ const Login = () => {
     </div>
 
           <div className="outer">
-            <div className="w-100 h-90 rounded-0 btn button">
+          
             <button  className="w-100 h-90 rounded-0 btn text">Login</button>
             </div>
-          </div>
                 <div>
-                    <span class="text-subdued">Don't have an account?</span>
-                    <a href="/register" class="link-faded">Sign up</a>
+                    <span className="text-subdued">Don't have an account?</span>
+                    <a href="/register" className="link-faded">Sign up</a>
                   </div>
           <Link to="/login/Reset">Forgot password?</Link>
     </form>

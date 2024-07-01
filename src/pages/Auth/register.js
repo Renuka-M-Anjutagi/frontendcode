@@ -51,9 +51,9 @@ return (
 </div>
 
         <div className="outer">
-            <div className="w-100 h-90 rounded-0 btn button">
+         
             <button  type="submit" className="w-100 h-90 rounded-0 btn text">Sign Up</button>
-            </div>
+         
           </div>
 
 </form>

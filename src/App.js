@@ -1,6 +1,6 @@
 import{ Routes,Route} from 'react-router-dom';
 import './App.css';
-import Layout from './components/layout/Layout';
+
 import HomePage from './pages/HomePage';
 import About from './pages/About';
 import Policy from './pages/Policy';
@@ -13,7 +13,7 @@ import Reset from './pages/Auth/reset';
 import ResetNewPassword from '../src/components/layout/ResetNewPassword';
 import Category from './pages/Category';
 
-import Products from './pages/Products';
+import ProductGrid from './pages/productGrid';
 
 function App() {
   return (
@@ -22,7 +22,7 @@ function App() {
     <Route path='/' element = {<HomePage />} />
     <Route path='/about' element = {<About />} />
     <Route path='/register' element = {<Register />} />
-    <Route path='/products' element = {<Products />} />
+    <Route path='/product' element = {<ProductGrid />} />
     <Route path='/login' element = {<Login />} />
     <Route path='/login/reset' element = {<Reset />} />
     <Route path='/login/reset-password' element = {<ResetNewPassword />} />

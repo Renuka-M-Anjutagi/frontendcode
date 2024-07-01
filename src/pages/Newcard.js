@@ -11,8 +11,16 @@ const Newcard = (props) => {
      <div className="card">
      <img className='product-image' src={props.image}></img>
        <div className="card-body">
+       
          <h5 className="h6">{props.title}</h5>
          <p className="card-text">{props.price}</p>
+         <div> 
+          <span className="fa fa-star checked"> </span>
+          <span className="fa fa-star checked"> </span>
+          <span className="fa fa-star checked"> </span>
+          <span className="fa fa-star"> </span>
+          <span className="fa fa-star"> </span>({props.star})
+      </div>
        </div>
     </div>
  </div>
@@ -20,9 +28,16 @@ const Newcard = (props) => {
    <div className="card">
    <img className='product-image'  src={props.image}></img>
       <div className="card-body">
+      
         <h5 className="h6">{props.title}</h5>
         <p className="card-text">{props.price}</p>
-       
+        <div>
+          <span className="fa fa-star checked"></span>
+          <span className="fa fa-star checked"></span>
+          <span className="fa fa-star checked"></span>
+          <span className="fa fa-star"></span>
+          <span className="fa fa-star"></span>({props.star})
+        </div>
       </div>
    </div>
    </div>
@@ -30,10 +45,16 @@ const Newcard = (props) => {
    <div className="card">
    <img className='product-image' src={props.image}></img>
       <div className="card-body">
-     
+      
         <h5 className="h6">{props.title}</h5>
         <p className="card-text">{props.price}</p>
-        
+        <div>
+          <span className="fa fa-star checked" value="{props.star}"></span>
+          <span className="fa fa-star checked"></span>
+          <span className="fa fa-star checked"></span>
+          <span className="fa fa-star"></span>
+          <span className="fa fa-star"></span>({props.star})
+        </div>
       </div>
    </div>
    </div>
@@ -41,15 +62,22 @@ const Newcard = (props) => {
    <div className="card">
    <img className='product-image' src={props.image}></img>
       <div className="card-body">
+      
         <h5 className="h6">{props.title}</h5>
         <p className="card-text">{props.price}</p>
-       
+        <div>
+          <span className="fa fa-star checked"></span>
+          <span className="fa fa-star checked"></span>
+          <span className="fa fa-star checked"></span>
+          <span className="fa fa-star"></span>
+          <span className="fa fa-star"></span>({props.star})
+      </div>
      
       </div>
    </div>
    </div>
   
-    <div className="outer">
+    <div className="outer" style={{alignContent:"center"}}>
       <div className="button">
           <div className="text">SHOW MORE</div>
       </div>

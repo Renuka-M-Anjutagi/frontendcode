@@ -49,7 +49,7 @@ import Gallery from './Gallery';
     <Layout>
         <h1 style={{textTransform: "uppercase",fontWeight:"400",fontSize:"30px",alignContent:"center",letterSpacing:"3px", paddingBottom: "25px"}}>Best Seller</h1>
 
-      <Newcard data={data} title={data[0].title} price = {data[0].price}  description = {data[0].description} image = {data[0].image} />
+      <Newcard data={data} title={data[0].title} price = {data[0].price}  description = {data[0].description} image = {data[0].image} star = {"10"} />
       <hr></hr>
       
       <Popularproject />

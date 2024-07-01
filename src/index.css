@@ -331,7 +331,7 @@ img:read-only {
 }
 
 .text:hover {
-  color: white;  
+  color: black;  
 }
 
 /* popupal project */
@@ -494,8 +494,7 @@ img:read-only {
 
 .me-3 {
   margin-right: 3rem !important;
-  align-items: center;
-  align-content: center !important;
+
 }
 
 .selectpicker {

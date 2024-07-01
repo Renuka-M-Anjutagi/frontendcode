@@ -50,7 +50,7 @@ const Header = () => {
           <a class="nav-link active" aria-current="page" href="#">All painting</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">EXPLORE</a>
+          <a class="nav-link" href="/product">EXPLORE</a>
         </li>
         <li class="nav-item">
           <a class="nav-link" href="#">Abstract painting</a>

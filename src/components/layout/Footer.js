@@ -24,9 +24,9 @@ function Footer() {
                 </div>
               </div>
               <br></br>
-              <div class="outer">
-                    <div class="button">
-                        <div class="text">SUBSCRIBE</div>
+              <div className="outer">
+                    <div className="button">
+                        <div className="text">SUBSCRIBE</div>
                     </div>
               </div>
 
