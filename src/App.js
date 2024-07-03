@@ -10,7 +10,7 @@ import Register from './pages/Auth/register';
 import Login from './pages/Auth/Login';
 import Dashborad from './pages/Auth/dashborad';
 import Reset from './pages/Auth/reset';
-import ResetNewPassword from '../src/components/layout/ResetNewPassword';
+import ResetNewPassword from './src/components/layout/ResetNewPassword';
 import Category from './pages/Category';
 
 import ProductGrid from './pages/productGrid';
