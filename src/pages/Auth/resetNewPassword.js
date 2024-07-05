@@ -1,7 +1,7 @@
 import React from 'react'
 import ResetNewPassword from '../../components/layout/ResetNewPassword'
 
-const resetNewPassword = (props) => {
+const ResetNewPassword = (props) => {
   
   return (
     <div>
@@ -37,4 +37,4 @@ const resetNewPassword = (props) => {
   )
 }
 
-export default resetNewPassword
+export default ResetNewPassword
